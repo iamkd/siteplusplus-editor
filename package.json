@@ -1,0 +1,24 @@
+{
+  "name": "project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "admin-on-rest": "^1.3.1",
+    "concurrently": "*",
+    "ory-editor": "^0.2.24",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.13"
+  },
+  "scripts": {
+    "start:server": "json-server --port 3001 -w ./server/db.json",
+    "start:client": "react-scripts start",
+    "start": "concurrently \"npm run start:server\" \"npm run start:client\" ",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

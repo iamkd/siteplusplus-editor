@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "qwer",
+      "body": "qwer"
+    },
+    {
+      "title": "er",
+      "body": "wer",
+      "id": 2
+    },
+    {
+      "title": "qer",
+      "body": "qwerqwr",
+      "id": 3
+    },
+    {
+      "title": "dfas",
+      "body": "sfda",
+      "id": 4
+    },
+    {
+      "body": "sfda",
+      "title": "sfas",
+      "id": 5
+    },
+    {
+      "body": "sdf",
+      "title": "sdf",
+      "id": 6
+    },
+    {
+      "title": "dfg ds",
+      "body": " dgsdgs",
+      "id": 7
+    }
+  ],
+  "users": []
+}
